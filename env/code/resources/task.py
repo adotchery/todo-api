@@ -1,4 +1,5 @@
 from flask_restful import Resource
+from models.task import TaskModel
 
 class Task(Resource):
     def get(self):
